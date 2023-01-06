@@ -100,10 +100,13 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+section {
+  margin-top: 130px;
+}
 /* about section */
 .about {
   text-align: center;
-  margin-top: 130px;
+  /* margin-top: 130px; */
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
@@ -125,7 +128,7 @@ main {
   display: flex;
   text-align: center;
   justify-content: space-around;
-  margin-bottom: 130px;
+  /* margin-bottom: 130px; */
 }
 .info-title {
   color: #757575;
@@ -159,4 +162,63 @@ main {
   font-weight: 400;
   font-size: 16px;
   color: #757575;
+}
+.resume-content {
+  display: flex;
+
+  gap: 50px;
+}
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume .sub-title {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.resume .description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+}
+.resume-items {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+/* contact */
+.contact {
+  position: absolute;
+  width: 1600px;
+  height: 500px;
+  left: 0px;
+  top: 3050px;
+  display: flex;
+  padding: 130px 200px;
+  background: #fff8f3;
+}
+.contact .section-title {
+  text-align: left;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 25px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+input {
+  height: 64px;
+}
+.contact a {
+  text-decoration: none;
+  margin-right: 20px;
 }
